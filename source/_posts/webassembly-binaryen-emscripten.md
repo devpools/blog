@@ -67,7 +67,7 @@ asm.js는 다들 오해하시고 있는 부분이 있는데 어떤 새로운 컴
 
 #### 1.3\. 도원결의
 
-[caption id="attachment_485" align="aligncenter" width="588"]![](http://devpools.kr/wordpress/wp-content/uploads/2017/01/6Y3VF96RTIPAXWR2YQMH-1024x576.jpg) 출처 : 나무위키 진삼국무쌍7[/caption]
+[caption id="attachment_485" align="aligncenter" width="588"]![](/images/2017/01/6Y3VF96RTIPAXWR2YQMH-1024x576.jpg) 출처 : 나무위키 진삼국무쌍7[/caption]
 
 뭐 여러분 모두 짐작하셨다시피 asm.js의 엄청난 속도를 보고 emscripten은 LLVM을 asm.js로 컴파일 하기에 이릅니다.
 
@@ -157,13 +157,13 @@ hello.wasm 파일이 떨어집니다.
 
 hex  에디터로 열어서 hello, world를 찾아 보는것이 도리겠죠?
 
-[caption id="attachment_436" align="aligncenter" width="998"]![](http://devpools.kr/wordpress/wp-content/uploads/2017/01/스크린샷-2017-01-21-오후-9.51.07.jpg) 오.... 소름[/caption]
+[caption id="attachment_436" align="aligncenter" width="998"]![](/images/2017/01/스크린샷-2017-01-21-오후-9.51.07.jpg) 오.... 소름[/caption]
 
 그런데... 이걸 어떻게 브라우저에 띄울까요? 걱정 안해도 됩니다.  브라우저에서 볼 수 있도록 명령어를 제공합니다.
 
 <pre>emcc hello_world.c -s WASM=1 -o hello.html</pre>
 
-타겟을 html로 주고 WASM=1로 주게 되면 우리가 필요한 모든 파일들을 볼 수 있으며textarea 에 뜨는 것을 확인할 수 있습니다.![](http://devpools.kr/wordpress/wp-content/uploads/2017/01/스크린샷-2017-01-21-오후-9.55.09-1024x640.jpg)
+타겟을 html로 주고 WASM=1로 주게 되면 우리가 필요한 모든 파일들을 볼 수 있으며textarea 에 뜨는 것을 확인할 수 있습니다.![](/images/2017/01/스크린샷-2017-01-21-오후-9.55.09-1024x640.jpg)
 
 물론 실행은 크롬 canary 버전에서 실행했습니다. 아직 프리뷰 버전이라 정식 버전에는 들어가지 않았습니다.
 

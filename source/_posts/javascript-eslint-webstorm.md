@@ -42,7 +42,7 @@ Nicholas Jakas에 의해 2013년에 나온 이 툴은 현재 여러 툴들에서
 
 preference -&gt; Languges &amp; Framework -&gt; ESLint
 
-![](http://devpools.kr/wordpress/wp-content/uploads/2017/02/20170306_061320-1024x712.jpg)
+![](/images/2017/02/20170306_061320-1024x712.jpg)
 
 두가지를 셋팅해 주셔야 하는데 하나는 Node 를 지정하는 것이고 또 다른 하나는 ESLint 폴더를 지정해 주는 것입니다. Node 는 각자의 환경을 정하면 될 것입니다.
 
@@ -64,6 +64,6 @@ ESLint 폴더를 지정할 때는
 
 실행해 주고 나서 WebStorm을 다시 작동시키면 아래와 같은 좋은 예를 볼 수 있습니다.
 
-![](http://devpools.kr/wordpress/wp-content/uploads/2017/02/스크린샷-2017-02-16-오후-6.49.10.jpg)
+![](/images/2017/02/스크린샷-2017-02-16-오후-6.49.10.jpg)
 
 &nbsp;
